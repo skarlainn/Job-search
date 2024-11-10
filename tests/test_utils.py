@@ -17,7 +17,7 @@ class TestVacancySorter(unittest.TestCase):
             Vacancy("Data Scientist", "Finance Co", 120000),
             Vacancy("Product Manager", "E-commerce Inc", 180000),
             Vacancy("DevOps Engineer", "Cloud Services", 110000),
-            Vacancy("UX Designer", "Design Studio", 140000)
+            Vacancy("UX Designer", "Design Studio", 140000),
         ]
 
     def test_empty_input(self):
@@ -43,7 +43,7 @@ def test_filter_vacancies(list_vacancies):
 
     filtered_vacancies = filter_vacancies_by_keywords(list_vacancies, keywords)
 
-    expected = ['Фронтенд разработчик', 'Backend-разработчик']
+    expected = ["Фронтенд разработчик", "Backend-разработчик"]
     actual = [vacancy.name for vacancy in filtered_vacancies]
     assert actual == expected
 

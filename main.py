@@ -1,7 +1,6 @@
 from src.job_search import SearchVacancies
 from src.vacancy import Vacancy
-from src.utils import filter_vacancies_by_keywords, get_top_n_by_salary, \
-    print_vacancies
+from src.utils import filter_vacancies_by_keywords, get_top_n_by_salary, print_vacancies
 from src.file_worker import JSONSWorker
 
 

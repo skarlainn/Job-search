@@ -1,4 +1,3 @@
-from src.vacancy import Vacancy
 
 
 def test_vacancy_init(vacancy_test):
@@ -17,12 +16,15 @@ def test_vacancy_validate(vacancy_test_2):
     assert vacancy_test_2.description == "Описание отсутствует"
 
 
-
 def test_vacancy_str(vacancy_test, vacancy_test_2):
-    assert str(vacancy_test) == ('Фронтенд разработчик: Знания HTML, CSS, JS, Jquery., Регион:Ташкент, '
-                                 'Зарплата: 2000000, Ссылка: https://hh.ru/vacancy/109570768')
-    assert str(vacancy_test_2) == ('Фронтенд разработчик: Описание отсутствует, Регион:Регион не указан, '
-                                   'Зарплата: Не указана, Ссылка: https://hh.ru/vacancy/109570768')
+    assert str(vacancy_test) == (
+        "Фронтенд разработчик: Знания HTML, CSS, JS, Jquery., Регион:Ташкент, "
+        "Зарплата: 2000000, Ссылка: https://hh.ru/vacancy/109570768"
+    )
+    assert str(vacancy_test_2) == (
+        "Фронтенд разработчик: Описание отсутствует, Регион:Регион не указан, "
+        "Зарплата: Не указана, Ссылка: https://hh.ru/vacancy/109570768"
+    )
 
 
 def test_vacancy_comparison(vacancy_test, vacancy_test_2):
