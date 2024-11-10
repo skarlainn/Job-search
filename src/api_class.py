@@ -5,7 +5,8 @@ class Api(ABC):
     """Абстрактный класс для работы с API по поиску вакансий"""
 
     @abstractmethod
-    def load_vacancies(self, keyword):
+    def load_vacancies(self, keyword: str) -> None:
+        """Получение вакансий по поисковому запросу"""
         pass
 
 

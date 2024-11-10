@@ -1,12 +1,5 @@
 [
     {
-        "name": "Разработчик Frontend (React/Next)",
-        "url": "https://hh.ru/vacancy/110246462",
-        "area": "Москва",
-        "salary": 0,
-        "description": "БУДЕТ ПЛЮСОМ: Опыт использования Storybook. Опыт <highlighttext>работы</highlighttext> с Docker. Опыт <highlighttext>работы</highlighttext> в команде разработчиков, а также опыт взаимодействия с backend..."
-    },
-    {
         "name": "UX/UI-дизайнер",
         "url": "https://hh.ru/vacancy/110140457",
         "area": "Подольск (Московская область)",
@@ -19,13 +12,6 @@
         "area": "Москва",
         "salary": 0,
         "description": "Желание влиять на принятие решений, в том числе общаясь с менеджерами или разработчиками. <highlighttext>Работу</highlighttext> с операционкой, вникание в сложные процессы."
-    },
-    {
-        "name": "Системный аналитик",
-        "url": "https://hh.ru/vacancy/108355305",
-        "area": "Москва",
-        "salary": 0,
-        "description": "Умение <highlighttext>найти</highlighttext> общий язык с разработчиками, разобраться в задаче и системе в целом. Знакомство с принципами <highlighttext>работы</highlighttext> СУБД и SQL..."
     },
     {
         "name": "Менеджер интернет-проектов",
